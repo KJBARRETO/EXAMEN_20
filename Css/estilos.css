@@ -26,6 +26,7 @@ header {
 .navbar-brand {
     display: flex;
     align-items: center;
+    font-size: 35px;
 }
 
 .navbar-brand img {
@@ -46,7 +47,7 @@ header {
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: #000000;
+    color: white;
     transform: translateY(-2px);
 }
 
@@ -93,20 +94,12 @@ header {
     border-bottom: 2px solid #ffffff;
 }
 
-/* Banner y carrusel */
-.banner {
-    margin-bottom: 30px;
-    position: relative;
-    margin-top: 80px;
-}
-
-
 /* Tarjetas y productos */
 .card {
     margin-bottom: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
-    border: 1px solid rgb(110, 109, 109);
+    border: 1px solid #ddd;
 }
 
 .card:hover, .producto:hover {
@@ -118,11 +111,11 @@ header {
     height: 200px;
     object-fit: contain;
     padding: 10px;
-    background-color: rgb(110, 109, 109);
+    background-color: white;
 }
 
 .card h3, .card h4 {
-    color: #ffffff;
+    color: #333;
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 15px;
@@ -138,7 +131,7 @@ header {
 }
 
 .precio {
-    color: #2892D1;
+    color: #ffffff;
     font-weight: bold;
     font-size: 18px;
     margin-bottom: 15px;
@@ -146,7 +139,7 @@ header {
 
 /* Productos destacados */
 .producto {
-    background-color: rgb(110, 109, 109);
+    background-color: white;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -165,12 +158,11 @@ header {
 .producto h3 {
     font-size: 18px;
     margin: 10px 0;
-    color: #ffffff;
 }
 
 .boton-comprar {
     display: inline-block;
-    background-color: #9d79cc;
+    background-color: #ffffff;
     color: white;
     padding: 8px 15px;
     border-radius: 5px;
@@ -179,13 +171,13 @@ header {
 }
 
 .boton-comprar:hover {
-    background-color: #2892D1;
+    background-color: rgb(255, 255, 255);
     color: white;
 }
 
 /* Servicios */
 .servicio {
-    background-color: white;
+    background-color: #6e6d6d;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -202,7 +194,7 @@ header {
 }
 
 .servicio h3 {
-    color: #e60000;
+    color: #ffffff;
     margin: 15px 0;
 }
 
@@ -221,145 +213,6 @@ header {
     color: white;
 }
 
-/* Buscador */
-.input-group {
-    border-radius: 4px;
-    overflow: hidden;
-}
-
-/* Filtros */
-.filtros {
-    background-color: white;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin-bottom: 30px;
-}
-
-.filtros h3 {
-    color: #e60000;
-    font-size: 20px;
-    margin-bottom: 15px;
-}
-
-.grupo-filtro {
-    margin-bottom: 20px;
-}
-
-.grupo-filtro h4 {
-    font-size: 16px;
-    margin-bottom: 10px;
-    border-bottom: 1px solid #eee;
-    padding-bottom: 5px;
-}
-
-/* Ubicación */
-.tarjeta-info {
-    background-color: white;
-    padding: 25px;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    height: 100%;
-}
-
-.tarjeta-info h2 {
-    color: #e60000;
-    font-size: 22px;
-    margin-bottom: 20px;
-}
-
-.tarjeta-info h3 {
-    color: #333;
-    font-size: 18px;
-}
-
-.tarjeta-info p {
-    margin-bottom: 10px;
-    font-size: 16px;
-}
-
-.tarjeta-info ul {
-    padding-left: 20px;
-}
-
-.tarjeta-info li {
-    margin-bottom: 5px;
-}
-
-.galeria {
-    background-color: white;
-    padding: 25px;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    height: 100%;
-}
-
-.galeria h2 {
-    color: #e60000;
-    font-size: 22px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.imagenes {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.img-tienda {
-    width: 100%;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-.mapa {
-    background-color: white;
-    padding: 25px;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.mapa h2 {
-    color: #e60000;
-    font-size: 22px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.mapa iframe {
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-/* Formulario de contacto */
-.contacto {
-    background-color: white;
-    padding: 25px;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.contacto h2 {
-    color: #e60000;
-    font-size: 22px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.boton-enviar {
-    background-color: #8163A8;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.boton-enviar:hover {
-    background-color: #2892D1;
-}
 
 /* Pie de página */
 footer {
