@@ -198,6 +198,10 @@ header {
     margin: 15px 0;
 }
 
+.servicio p {
+    color: #ffffff;
+}
+
 .boton-info {
     display: inline-block;
     background-color: #28a745;
